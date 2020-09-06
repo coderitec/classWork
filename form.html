@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <section>
+        <table border="4px" cellspacing="20" cellpadding="15">
+            <caption><h3>daily reading schedule</h3></caption>
+            <thead>
+                <tr>
+                    <th>Day/time</th>
+                    <th>ce matin</th>
+                    <th>apre midi</th>
+                    <th>le soir</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>monday</th>
+                    <td rowspan="2">three men in a boat</td>
+                    <td>zero to one</td>
+                    <td>how to do nothing</td>
+                </tr>
+                <tr>
+                    <th>tuesday</th>
+                   
+                    <td>the seven storey mountain</td>
+                    <td>ice station</td>
+                </tr>
+                <tr>
+                    <th>wednesday</th>
+                    <td colspan="2">outliers</td>
+                    
+                    <td>a thousand slendid suns</td>
+                </tr>
+                <tr>
+                    <th>thursday</th>
+                    <td rowspan="2">cobra</td>
+                    <td colspan="2">deep friendship</td>
+                  
+                </tr>
+                <tr>
+                    <th>friday</th>
+                   
+                    <td>the goal</td>
+                    <td>left to tell</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4"><h2>time table changes once three books are read </h2></td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+    <form action="">
+        <fieldset>
+            <legend>personal information</legend>
+            <label>Full Name</label><input type="text" placeholder="john wick" required><br/>
+            <label>Password</label><input type="password"  required><br/>
+            <label>Email</label><input type="email" name="email" id="email" placeholder="example@email.com"><br/>
+            <label for="">Date of Birth:</label><input type="date" name="date" id="birth"><br>
+            <p>state of origin</p>
+            <select name="SoO" id="state">
+                <option value="choice" selected>choose your state</option>
+                <option value="anambra">anambra</option>
+                <option value="imo">imo</option>
+                <option value="enugu">enugu</option>
+                <opztion value="lagos" >lagos</option>
+                <option value="kano">kano</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>gender</legend>
+            <input type="radio" name="gender" id="sex">male <br>
+            <input type="radio" name="gender" id="sex" checked>female <br>
+            <input type="radio" name="gender" id="sex">prefer not to say <br>
+        </fieldset>
+       <fieldset>
+        <legend>choose your skills: </legend>
+        <input type="checkbox" name="sk1" id="skills">html5 <br>
+        <input type="checkbox" name="sk1" id="skills">css3 <br>
+        <input type="checkbox" name="sk1" id="skills">JavaScript <br>
+        <input type="checkbox" name="sk1" id="skills">
+        <abbr title="Structured Query Language">SQL</abbr> <br>
+        <input type="checkbox" name="sk1" id="skills">Angular <br>
+        <input type="checkbox" name="sk1" id="skills">React <br>
+       </fieldset>
+       <button type="submit">send</button> <button type="reset">reset</button>
+       <section>
+         <details>
+             <ul>
+                 <li>my name is franc enemuo</li>
+                 <li>i am from anambra state, i am 33</li>
+                 <li>i am also a computer instructor at embtec konzultz</li>
+             </ul>
+             <summary>who are you</summary>
+         </details>
+         <details>
+             <summary>what courses do you teach?</summary>
+             i teach the following languages:
+             <ol>
+                 <li>html</li>
+                 <li>css</li>
+                 <li>javascript</li>
+                 <li>angular</li>
+                 <li>python sql</li>
+                </ol>
+         </details>
+       </section>
+       
+    </form>
+    
+</body>
+</html>

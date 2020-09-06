@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Sacramento&display=swap');
+
+h1{
+    text-transform: uppercase;
+    background-color: rgba(55, 206, 88, 0.89);
+    padding: 10px 0;
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+    font-family: 'Metal Mania', cursive;
+}
+section:last-of-type   h1{
+    text-transform: capitalize;
+    background-color: rgba(54, 8, 182, 0.822);
+}
+img{
+   display: block;
+   margin: 0 auto;
+   max-width: 25em ;
+   border: 5px double #a8d;
+   max-height: 25em;
+   border-radius: 0 20%;
+}
+section{
+    margin-bottom: 7%;
+}
+p, .para{
+    font-family: 'Sacramento', cursive;
+    font-size: 2em;
+}
+nav li{
+    display: inline-block;
+    padding: 3% 5%;
+    font-family: 'Metal Mania', cursive;
+    border-right: 3px double blanchedalmond;
+}
+nav a{
+    text-decoration: none;
+}
+nav{
+    background-color: rgba(21, 211, 122, 0.794);
+}
+nav li:hover{
+    background-color: rgba(209, 24, 24, 0.719);
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    border-bottom: 3px dashed #06a342;
+}
