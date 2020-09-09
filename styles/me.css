@@ -39,6 +39,11 @@ nav a{
 }
 nav{
     background-color: rgba(21, 211, 122, 0.794);
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    
 }
 nav li:hover{
     background-color: rgba(209, 24, 24, 0.719);
@@ -46,4 +51,19 @@ nav li:hover{
     font-family: 'Times New Roman', Times, serif;
     text-decoration: underline;
     border-bottom: 3px dashed #06a342;
+}
+
+#video div{
+    background-color: rgba(224, 19, 19, 0.691);
+    width: 500px;
+    height: 600px;
+    position: relative;
+}
+
+#video video{
+    position: absolute;
+}
+
+main{
+    margin-top: 9%;
 }
