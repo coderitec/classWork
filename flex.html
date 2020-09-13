@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        section aside{
+            width: 250px;
+            height: 250px;
+            background-color: hsla(214, 73%, 36%, 0.856);
+        }
+        section div{
+            width: 250px;
+            height: 250px;
+            background-color: hsla(111, 79%, 40%, 0.856);
+        }
+        aside:first-of-type{
+            /* flex-grow: 1; */
+            background-color: rgba(21, 165, 40, 0.828);
+        }
+        aside:last-of-type{
+            flex-grow: 2;
+            background-color: rgba(224, 228, 18, 0.828);
+        }
+        aside:nth-last-of-type(3){
+            flex-basis: 150px;
+        }
+        .first{
+            gap: 10px;
+            height: 100vh;
+            background-color: rgba(187, 35, 35, 0.78);
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+        }
+
+        .sec{
+            height: 100vh;
+            background-color: rgba(58, 187, 35, 0.78);
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 10px;
+        }
+    
+        div:first-of-type{
+            flex-shrink: 3;
+            background-color: rgba(50, 8, 238, 0.828);
+        }
+        div:last-of-type{
+            background-color: rgba(224, 228, 18, 0.828);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="first">
+            <aside></aside>
+            <aside></aside>
+            <aside></aside>
+            <aside></aside>
+        </section>
+        <section class="sec">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+    </main>
+</body>
+</html>
