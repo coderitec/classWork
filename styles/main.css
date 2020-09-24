@@ -3,3 +3,17 @@ p,pre{
     padding: 4% 5% ;
     margin: 10%;
 }
+
+footer{
+    height: 20vh;
+    background: linear-gradient(180deg, yellow 25%, green 20%,green 40%,khaki 30%, khaki 60%, red 17%);
+}
+p.para{
+    width: 15em;
+    height: 15em;
+    border-radius: 50%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: inherit;
+    background: radial-gradient( yellow 25%, green 20%,green 40%,khaki 30%, khaki 60%, red 17%);
+}
